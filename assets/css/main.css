@@ -2821,6 +2821,8 @@ input, select, textarea {
 
 			ul.icons li > a, ul.icons li > span {
 				border: 0;
+				font-size: 25px;
+			
 			}
 
 				ul.icons li > a .label, ul.icons li > span .label {
