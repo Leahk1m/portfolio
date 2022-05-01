@@ -3907,3 +3907,38 @@ input, select, textarea {
 			}
 
 		}
+
+		.skill-icons {
+			width: 50px;
+			padding-top: 50px;
+
+		}
+
+		.skill-container-div {
+			display: inline-grid;
+			grid-template-columns: 300px 300px 300px;
+			justify-content: center;
+			align-items: center;
+			grid-template-rows: auto;
+			justify-items: center;
+			gap: 20px;
+		}
+
+		.indiv-skill-cont {
+			background-color: whitesmoke;
+			border: 1px solid #afafaf;
+			display: flex;
+			width: 200px;
+			box-shadow: 0px 0px 20px 0px #00000059;
+			height: 150px;
+			align-items: center;
+			justify-content: center;
+			align-content: center;
+			flex-direction: column;
+			gap: 10px;
+			border-radius: 7px;
+		}
+
+		.skill-name {
+			color: black;
+		}
