@@ -151,7 +151,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2004,6 +2004,7 @@ input, select, textarea {
 			height: 500px;
 			justify-content: center;
 			align-items: center;
+			text-align: center;
 		}
 
 			.features section:nth-child(-n + 2) {
@@ -3950,6 +3951,7 @@ input, select, textarea {
 			flex-direction: column;
 			gap: 10px;
 			border-radius: 7px;
+			text-align: center;
 		}
 
 		.skill-name {
@@ -3965,7 +3967,7 @@ input, select, textarea {
 		}
 
 		.shelfgif {
-			width: 400px;
+			width: 500px;
 
 		}
 		.shelfgif:hover {
@@ -3976,4 +3978,12 @@ input, select, textarea {
 
 		.leah-kim-h1 {
 			text-shadow: 0 0 20px #000000;
+		}
+
+		.dl-resume {
+			outline: none;
+		}
+
+		.proj-p {
+			font-size: 15px;
 		}
