@@ -3967,7 +3967,8 @@ input, select, textarea {
 		}
 
 		.shelfgif {
-			width: 500px;
+			width: 85%;
+			border-radius: 3px;
 
 		}
 		.shelfgif:hover {
@@ -3986,4 +3987,12 @@ input, select, textarea {
 
 		.proj-p {
 			font-size: 15px;
+		}
+
+		.about-info {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			align-content: center;
 		}
